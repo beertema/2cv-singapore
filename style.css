@@ -3,27 +3,28 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #fef6e4;
+    color: #172c66;
 }
 
 header {
-    background-color: #e63946;
-    color: white;
+    background-color: #f582ae;
+    color: #001858;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 nav {
-    background-color: #333;
-    padding: 0.5rem;
+    background-color: #8bd3dd;
+    padding: 0.8rem;
     text-align: center;
 }
 
 nav a {
-    color: white;
-    margin: 0 1rem;
+    color: #001858;
+    margin: 0 1.5rem;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -33,19 +34,17 @@ nav a:hover {
 .container {
     max-width: 900px;
     margin: 2rem auto;
-    padding: 1rem;
-    background-color: white;
+    padding: 1.5rem;
+    background-color: #fef6e4;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #8bd3dd;
+    color: #001858;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }
 
@@ -63,11 +62,6 @@ img {
 
     .container {
         margin: 1rem;
-        padding: 1rem;
-    }
-
-    footer {
-        position: relative;
         padding: 1rem;
     }
 }
